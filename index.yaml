@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  phoenixnap:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-18T10:01:30.712867956Z"
+    description: A Helm chart for Kubernetes
+    digest: e7b5006aeee68264d0133ae8392028e9e4330f9cae301c13f5b207a8ecedaba0
+    name: phoenixnap
+    type: application
+    urls:
+    - https://gayushri.github.io/helm-example/phoenixnap-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-04-18T10:01:30.712095433Z"
