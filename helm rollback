@@ -8,7 +8,7 @@ kubectl get cronjobs
 
 kubectl logs helloworld-pvkcm
 kubectl describe helloworld-pvkcm
-
+https://www.waytoeasylearn.com/learn/repository-hosting-options/
 
 helm create chart name
 default structre will be created.. we can modify and call as variables with value as main file
