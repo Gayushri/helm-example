@@ -1,0 +1,65 @@
+job
+usage to run a job based on script when required
+create yaml file and apply
+kubectl get jobs and get pods
+kubectl logs pod name to get o/p
+create cron job and apply
+kubectl get cronjobs
+
+kubectl logs helloworld-pvkcm
+kubectl describe helloworld-pvkcm
+
+
+helm create chart name
+default structre will be created.. we can modify and call as variables with value as main file
+helm lint path - to check the error
+helm template - to check variables are replaced with values
+helm package name
+helm repo list
+curl --data-binary "@repotest-0.1.0.tgz" http://192.168.1.50:8080/api/charts adding to ip address where we have installed chartmusem
+helm search repo mychartmuseumrepo to check the packages added in repo
+helm repo update to update the reposity with the charts
+helm plugin list
+helm push chartname - to push directly in repo without creating zip file
+once pushed update repo using helm repo update and check for the repositries using helm search repo repositry name
+
+
+rollback steps
+go to directory and show the yaml files
+helm create chart name
+helm install release name and chart name
+helm history release name
+helm get all release name
+helm rollback release name revision number
+
+
+cron
+create job and cron yaml files
+kubectl get jobs
+kubectl logs and podname
+kubectl get cronjobs
+
+helm charts
+explain chart,values, deployment and service files
+helm repo list
+helm search repo mychartmuseumrepo
+if charts added it will be listed if not we can add it by using helm repo add name and url
+helm repo update
+helm install mychartmuseumrepo/repotest --generate-name
+helm ls
+helm create chartname
+once we create default files will be added
+helm package chartname
+make changes and package it using helm package chart name so that it creates tz file	
+helm push chartname/repo name
+curl --data-binary "package name" url (repo url)
+helm repo update
+helm install repo/chartnames --generate-name
+
+make changes for replicas in values and update version
+helm upgrade release name and chart name
+kubectl get all
+helm history release name
+helm rollback release name
+
+
